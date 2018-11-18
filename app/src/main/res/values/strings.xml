@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ElectroBasket</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string-array name="name">
+        <item>Dealer</item>
+        <item>Sub-Dealer</item>
+        <item>Salesman</item>
+
+    </string-array>
+    <string name="title_activity_sub_dealer">SubDealer</string>
+    <string name="title_activity_dealer_view_profile">DealerViewProfile</string>
+    <string name="title_activity_dealer_view_stock">DealerViewStock</string>
+    <string name="title_activity_dealer_view_orders">DealerViewOrders</string>
+    <string name="title_activity_dealer_executive">DealerExecutive</string>
+    <string name="title_activity_dealer_analytics">DealerAnalytics</string>
+    <string name="title_activity_dealer_project_goods">DealerProjectGoods</string>
+
+
+</resources>

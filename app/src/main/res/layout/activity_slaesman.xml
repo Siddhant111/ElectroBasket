@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salesman"
+    android:background="@mipmap/mountain">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="WELCOME"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/viewprofile"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/dealerbutton"
+        android:text="View Profile"
+        android:textColor="#ffffff"
+        android:onClick="SalesmanViewProfile"/>
+
+    <Button
+        android:id="@+id/vieworder"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="207dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/dealerbutton"
+        android:onClick="ViewPlacedOrders"
+        android:text="View Placed Orders"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/vieworder"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/dealerbutton"
+        android:text="Place Orders"
+        android:textColor="#ffffff"
+        android:onClick="SalesmanPlaceOrder"/>
+
+    <Button
+        android:id="@+id/executivemap"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/dealerbutton"
+        android:text="Place Your Location"
+        android:textColor="#ffffff"
+        android:onClick="Location"/>
+
+</RelativeLayout>

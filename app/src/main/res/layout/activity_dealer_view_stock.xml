@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mountain"
+    tools:context=".DealerViewStock">
+
+    <TextView
+        android:id="@+id/Stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Stock Left"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="147dp"
+        android:text="Surface Lights"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/surface"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/bulb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/surface"
+        android:layout_marginTop="214dp"
+        android:text="Bulbs"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="127"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/bulb"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/LED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/surface"
+        android:layout_centerVertical="true"
+        android:text="LED Batten"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="108"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/LED"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/surface"
+        android:layout_marginBottom="215dp"
+        android:text="Architectural Lights"
+        android:textColor="#ffffff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/arc"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/fasad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/surface"
+        android:layout_marginBottom="149dp"
+        android:text="Fasad Lights"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/fasad"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/panels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/surface"
+        android:layout_marginBottom="87dp"
+        android:text="Panels"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17"
+        android:layout_toRightOf="@id/surface"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/panels"
+        android:padding="7dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mountain"
+    tools:context=".SalesmanPlaceOrders">
+
+    <Button
+        android:id="@+id/viewprofile"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/dealerbutton"
+        android:text="Place Order"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Place Your Order"
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+
+
+    <TextView
+        android:id="@+id/Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="149dp"
+        android:text="Surface Lights"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/surfaceadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Surface"
+        android:layout_alignEnd="@+id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/surfacetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/Surface"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/surfacesub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bubls"
+        android:layout_toRightOf="@+id/surfacetext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/bubls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_below="@+id/Surface"
+        android:layout_marginTop="20dp"
+        android:text="Bulbs"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+    <android.support.v7.widget.CardView
+        android:id="@+id/bulbadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bubls"
+        android:layout_alignEnd="@+id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/bubltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/bubls"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/bublsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Led"
+        android:layout_toRightOf="@+id/bubltext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/Led"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_below="@+id/bubls"
+        android:layout_marginTop="20dp"
+        android:text="LED Batten"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/ledadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Led"
+        android:layout_alignEnd="@+id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/ledtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/Led"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/ledsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/arc"
+        android:layout_toRightOf="@+id/surfacetext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_below="@+id/Led"
+        android:layout_marginTop="20dp"
+        android:text="Architectural Lights"
+        android:textColor="#ffffff"
+        android:textSize="18dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/arcadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/arc"
+        android:layout_alignEnd="@+id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/arctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/arc"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/arcsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fasad"
+        android:layout_toRightOf="@+id/surfacetext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/fasad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_below="@+id/arc"
+        android:layout_marginTop="20dp"
+        android:text="Fasad Lights"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/fasadadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/fasad"
+        android:layout_alignEnd="@id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/fasadtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/fasad"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/fasadsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Panels"
+        android:layout_toRightOf="@+id/surfacetext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/Panels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_below="@+id/fasad"
+        android:layout_marginTop="20dp"
+        android:text="Panels"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/panelsadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Panels"
+        android:layout_alignEnd="@+id/viewprofile"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="+" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/paneltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/Panels"
+        android:layout_toRightOf="@id/surfaceadd"
+        android:textColor="#ffffff"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/panelsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Panels"
+        android:layout_toRightOf="@+id/surfacetext"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="-" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddhant.electrobasket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/thunder"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Dealer" />
+        <activity
+            android:name=".SubDealer"
+            android:label="@string/title_activity_sub_dealer"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Salesman" />
+        <activity android:name=".DealerViewProfile" />
+        <activity android:name=".DealerViewStock" />
+        <activity android:name=".DealerViewOrders" />
+        <activity android:name=".DealerExecutive" />
+        <activity android:name=".DealerAnalytics" />
+        <activity android:name=".DealerProjectGoods" />
+        <activity android:name=".SubDealerViewProfile" />
+        <activity android:name=".SubDealerViewOrder" />
+        <activity android:name=".SubDealerViewStock" />
+        <activity android:name=".SubDealerRetailGoods" />
+        <activity android:name=".SubDealerPlaceOrder" />
+        <activity android:name=".SubDealerMapping" />
+        <activity android:name=".SalesmanViewProfile" />
+        <activity android:name=".SalesmanPlaceOrders" />
+        <activity android:name=".SalesmanViewPlacedOrders" />
+        <activity android:name=".SalesmanGiveLocation"></activity>
+    </application>
+
+</manifest>

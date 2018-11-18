@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1080069101376",
+    "firebase_url": "https://electrobasket-49d52.firebaseio.com",
+    "project_id": "electrobasket-49d52",
+    "storage_bucket": "electrobasket-49d52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080069101376:android:349e6389f9dcf818",
+        "android_client_info": {
+          "package_name": "com.example.siddhant.electrobasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080069101376-ilrfelhjiuk78e0v517i12u127a665i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siddhant.electrobasket",
+            "certificate_hash": "f9f8022ebe1a79c19a8acb699ed4ce16475e4139"
+          }
+        },
+        {
+          "client_id": "1080069101376-88cdj4s4fkjheo4kbutcst4lettmuc9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4vMpuF2bMcDcNDmkG8G1Ga32jp0iSnM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080069101376-88cdj4s4fkjheo4kbutcst4lettmuc9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
